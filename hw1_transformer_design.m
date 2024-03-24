@@ -65,4 +65,8 @@ fprintf ('fill_factor = %f\n', fill_factor);
 P_cu_transformer = I_in_RMS^2 * R_awg_26 * 2;
 fprintf ('P_cu_transformer = %f\n', P_cu_transformer);
 
+P_core_transformer = 0.375 * 11.5;
+fprintf ('P_core_transformer = %f\n', P_core_transformer);
+
 disp(I_in_avg)
+
